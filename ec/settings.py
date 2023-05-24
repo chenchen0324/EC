@@ -69,6 +69,8 @@ TEMPLATES = [
     },
 ]
 
+
+#ss
 WSGI_APPLICATION = 'ec.wsgi.application'
 
 AUTH_USER_MODEL = 'accounts.Account'
