@@ -3,6 +3,8 @@ from store.models import Product
 from .models import Cart, CartItem
 from django.core.exceptions import ObjectDoesNotExist
 
+#w
+
 # Create your views here.
 def cart(request, total=0, quantity=0, cart_items=None):
     try:
